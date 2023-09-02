@@ -1,8 +1,30 @@
-![US-patent-data-parsing](https://socialify.git.ci/salmanjt/US-patent-data-parsing/image?font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Light)
+![US-patent-data-parsing](images/US-patent-data-parsing.png)
 
 ## Project Description
 
 The primary objective of the this project is to parse and preprocess a raw text file containing information about grants given for Intellectual Property (IP) patent claims. By leveraging regular expressions and data manipulation techniques, the project aims to extract relevant data from the dataset and prepare it for downstream analysis.
+
+## Project Tree
+
+```
+📦 US-patent-data-parsing
+├─ LICENSE
+├─ README.md
+├─ data
+│  ├─ input
+│  │  └─ patent_grants_data.txt
+│  ├─ output
+│  │  ├─ patent_grants.csv
+│  │  └─ patent_grants.json
+│  └─ sample
+│     ├─ sample_input.txt
+│     ├─ sample_output.csv
+│     └─ sample_output.json
+├─ images
+│  └─ US-patent-data-parsing.png
+└─ notebooks
+   └─ 01-data-parsing.ipynb
+```
 
 ## Technologies Used
 
@@ -21,3 +43,7 @@ Parsing and preprocessing raw data are fundamental steps in data analysis projec
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/salmanjt/US-patent-data-parsing/blob/main/LICENSE) file for details.
+
+## Credits
+
+[Project Tree Generator](https://woochanleee.github.io/project-tree-generator)
