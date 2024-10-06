@@ -2,7 +2,7 @@
 
 ## Project Description
 
-The primary objective of the this project is to parse and preprocess a raw text file containing information about grants given for Intellectual Property (IP) patent claims. By leveraging regular expressions and data manipulation techniques, the project aims to extract relevant data from the dataset and prepare it for downstream analysis.
+In this project, we parse and preprocess a raw text file containing information about grants given for Intellectual Property (IP) patent claims. By leveraging regular expressions and data manipulation techniques, this project aims to extract relevant data from the dataset and prepare it for downstream analysis.
 
 ## Project Tree
 
