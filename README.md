@@ -1,4 +1,4 @@
-![US-patent-data-parsing](images/IP-patent-data-parsing.svg)
+![US-patent-data-parsing](images/IP-patent-data-parsing.png)
 
 # Project Description
 
