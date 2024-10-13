@@ -66,8 +66,3 @@ The project generates several key output files (located in the `data/output` dir
 # License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/salmanjt/US-patent-data-parsing/blob/main/LICENSE) file for details.
-
-# Credits
-
-[Author - Salman Tahir](https://linkedin.com/in/salmanjt)  
-[Project Tree Generator](https://woochanleee.github.io/project-tree-generator)
