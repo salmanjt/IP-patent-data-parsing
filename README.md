@@ -23,11 +23,11 @@ Overall, this project demonstrates a practical and comprehensive approach to han
 # Project Tree
 
 ```
-📦 US-patent-data-parsing
-├─ LICENSE
-├─ README.md
-├─ data
-│  ├─ input
+📦 IP-patent-data-parsing
+├─ LICENSE
+├─ README.md
+├─ data
+│  ├─ input
 │  │  └─ patent_grants_data.txt
 │  ├─ output
 │  │  ├─ patent_grants.csv
@@ -37,9 +37,11 @@ Overall, this project demonstrates a practical and comprehensive approach to han
 │     ├─ sample_output.csv
 │     └─ sample_output.json
 ├─ images
-│  └─ US-patent-data-parsing.png
+│  └─ IP-patent-data-parsing.png
 └─ notebooks
-   └─ 01-data-parsing.ipynb
+   ├─ 01-data-parsing.ipynb
+   └─ exports
+      └─ 01-data-parsing.py
 ```
 
 # Tools and Technologies
