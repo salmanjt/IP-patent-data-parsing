@@ -42,7 +42,7 @@ Overall, this project demonstrates a practical and comprehensive approach to han
    └─ 01-data-parsing.ipynb
 ```
 
-# Technologies Used
+# Tools and Libraries
 
 -   [Python](https://www.python.org/downloads/)
 -   [Pandas](https://pandas.pydata.org/)
