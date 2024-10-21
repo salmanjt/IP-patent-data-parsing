@@ -61,12 +61,12 @@ Overall, this project demonstrates a practical and comprehensive approach to han
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
 
-    ```bash
-    git clone https://github.com/salmanjt/IP-patent-data-parsing.git
-    cd IP-patent-data-parsing
-    ```
+```bash
+git clone https://github.com/salmanjt/IP-patent-data-parsing.git
+cd IP-patent-data-parsing
+```
 
 ## Data Sources
 
