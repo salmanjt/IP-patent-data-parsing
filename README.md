@@ -1,26 +1,41 @@
-![US-patent-data-parsing](images/IP-patent-data-parsing.png)
+# IP Patent Data Parsing and Transformation
 
-# Project Description
+![IP-patent-data-parsing](images/IP-patent-data-parsing.png)
 
-The primary objective of this project is to parse and preprocess a raw text file containing multiple XML documents of intellectual property (IP) patent grants. By leveraging regular expressions and data manipulation techniques, we aim to extract relevant data from unstructured XML data and transform it into a structured format suitable for data analysis, trend identification and machine learning applications related to patent data.
+## Project Description
 
-The project involves several key steps:
+The primary objective of this project is to parse and preprocess a raw text file containing multiple XML documents of intellectual property (IP) patent grants. By leveraging regular expressions and data manipulation techniques, we extract relevant data from unstructured XML documents and transform it into a structured format suitable for data analysis, trend identification and machine learning applications related to patent data.
 
--   **Examining Patent Files:** Understanding the structure of the raw text file and identifying that it contains multiple XML documents, each representing a patent grant.
+## Key Steps Involved
 
--   **Identifying Patterns and Formulating Regular Expressions:** Developing specific regular expressions to accurately extract required data fields such as grant IDs, patent kinds, titles, number of claims, citation counts, inventors, claims text and abstracts.
+### Data Loading
 
--   **Loading and Parsing Files:** Reading the text file, cleaning the data by removing newlines and replacing HTML entities, and splitting it into individual XML documents for processing.
+Importing the raw text file that contains multiple XML documents, each representing a patent grant, and preparing it for data extraction.
 
--   **Data Extraction:** Applying the compiled regular expressions to extract the desired information from each XML document, handling potential anomalies and missing data.
+### Data Parsing and Extraction
 
--   **Creating a DataFrame:** Organising the extracted data into a pandas DataFrame, providing a structured and organised format for data manipulation and analysis.
+-   **Examining Patent Files:** Understanding the structure of the raw text file and identifying multiple XML documents within it, each corresponding to a patent grant.
+-   **Regular Expressions Formulation:** Developing regular expressions to accurately extract key data fields such as grant IDs, patent kinds, titles, claims, citation counts, inventors and abstracts.
+-   **Parsing Files:** Splitting the text file into individual XML documents and cleaning the data by removing newlines and replacing HTML entities.
+-   **Data Extraction:** Applying the regular expressions to extract relevant information, handling anomalies and missing data where applicable.
 
--   **Outputting Files:** Saving the structured data into CSV and JSON formats, ensuring compatibility for downstream applications and further processing.
+### Data Transformation
+
+-   **DataFrame Creation:** Organising the extracted data into a structured format using a pandas DataFrame for further analysis or manipulation.
+-   **Outputting Files:** Saving the structured data into CSV and JSON formats for downstream applications or further processing.
+
+### Data Validation
+
+Ensuring the extracted data is correct and complete by validating the structured output (CSV and JSON files) against expected data structures and handling any inconsistencies.
 
 Overall, this project demonstrates a practical and comprehensive approach to handling unstructured XML data. By parsing the XML data and extracting relevant attributes, the project facilitates the transformation of unstructured text data into a structured and organised format. This structured data is essential for downstream analysis, enabling insights to be gained from complex patent-related information. It lays a solid foundation for future analytical endeavours in patent data analysis and intellectual property research.
 
-# Project Tree
+## Tools & Technologies
+
+-   Python (Pandas, re)
+-   Jupyter Notebook
+
+## Project Tree
 
 ```
 📦 IP-patent-data-parsing
@@ -44,27 +59,31 @@ Overall, this project demonstrates a practical and comprehensive approach to han
       └─ 01-data-parsing.py
 ```
 
-# Tools and Technologies
+## Installation
 
--   [Python](https://www.python.org/downloads/)
--   [Pandas](https://pandas.pydata.org/)
--   [RegEx](https://docs.python.org/3/library/re.html)
--   [Jupyter ](https://jupyter.org/)
+1. Clone the repository:
 
-# Outputs
+    ```bash
+    git clone https://github.com/salmanjt/IP-patent-data-parsing.git
+    cd IP-patent-data-parsing
+    ```
 
-The project generates several key output files (located in the `data/output` directory):
+2. Install required dependencies:
 
--   **`patent_grants.csv`:** Contains the structured data extracted from the patent XML documents. Each row represents a patent grant with fields such as grant ID, patent title, kind, number of claims, inventors, citation counts, claims text and abstract.
+    ```bash
+    pip install -r requirements.txt
+    ```
 
--   **`patent_grants.json`:** A JSON file with the same structured data as the CSV, formatted for compatibility with applications that consume JSON data.
+## Data Sources
 
-# Future Improvements
+Raw text file containing multiple XML documents of patent grants was provided as part of the project specifications. The source of the data was not disclosed.
+
+## Future Improvements
 
 -   **Automated Testing:** Implement automated tests for the regular expressions and data extraction process to ensure stability and robustness of the project.
 -   **Comparative Analysis:** Conduct comparative analyses of different patent datasets to identify trends, patterns or anomalies, contributing to a deeper understanding of IP patent grants.
 -   **Scalability:** Optimise the code to handle larger datasets efficiently, possibly through parallel processing or memory management techniques.
 
-# License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/salmanjt/US-patent-data-parsing/blob/main/LICENSE) file for details.
