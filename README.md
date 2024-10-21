@@ -68,12 +68,6 @@ Overall, this project demonstrates a practical and comprehensive approach to han
     cd IP-patent-data-parsing
     ```
 
-2. Install required dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Data Sources
 
 Raw text file containing multiple XML documents of patent grants was provided as part of the project specifications. The source of the data was not disclosed.
