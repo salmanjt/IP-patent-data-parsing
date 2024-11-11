@@ -1,7 +1,5 @@
 # IP Patent Data Parsing and Transformation
 
-![IP-patent-data-parsing](images/IP-patent-data-parsing.png)
-
 ## Project Description
 
 The primary objective of this project is to parse and preprocess a raw text file containing multiple XML documents of intellectual property (IP) patent grants. By leveraging regular expressions and data manipulation techniques, we extract relevant data from unstructured XML documents and transform it into a structured format suitable for data analysis, trend identification and machine learning applications related to patent data.
